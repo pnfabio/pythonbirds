@@ -17,3 +17,8 @@ if __name__ == '__main__':
     print(fran.idade)
     for filho in fran.filhos:
         print(filho.nome)
+    fran.sobrenome = 'Nascimento'
+    del fran.filhos
+    print(fran.__dict__)
+    print(heitor.__dict__)
+
